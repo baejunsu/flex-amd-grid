@@ -73,7 +73,6 @@
     border-radius: 70px;
     padding: 10px 150px;
     grid-row: 1/2;
-    /* margin-top: 100px; */
     color: lightblue;
     grid-column: 4/9;
 }
@@ -87,7 +86,7 @@
     padding-top: 50px;
 }
 
-.comment-content {
+.comment-container {
     display: grid;
     margin-top: 100px;
     grid-template: repeat(3, 1fr)/repeat(5, 1fr);
@@ -180,7 +179,7 @@
 }
 
 
-/* ///////////////////////////////////////////////////////////////////////// */
+/*mobile size*/
 
 @media screen and (max-width: 567px) {
     .container {
@@ -218,7 +217,7 @@
         color: lightblue;
         grid-column: 1/12;
     }
-    .comment-content {
+    .comment-container {
         display: grid;
         grid-template: repeat(5, 1fr)/ 1fr;
     }
@@ -264,7 +263,7 @@
 }
 
 
-/* IIIiiiiiiIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIi */
+/* tablet size */
 
 @media screen and (min-width: 568px) {
     .container {
@@ -296,7 +295,7 @@
     .text-botton {
         grid-column: 3/10;
     }
-    .comment-content {
+    .comment-container {
         display: grid;
         grid-template: repeat(3, 1fr)/repeat(2, 1fr);
     }
@@ -342,7 +341,7 @@
 }
 
 
-/* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
+/* desktop size */
 
 @media screen and (min-width: 1200px) {
     .container {
