@@ -1,6 +1,6 @@
 .container {
     font-family: 'IranianSansRegular';
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -37,7 +37,8 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
     margin-bottom: 100px;
 }
 
@@ -153,7 +154,7 @@
 
 /* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 800px) {
     .container {
         font-family: 'IranianSansRegular';
         width: 100%;
@@ -178,8 +179,8 @@
         margin-bottom: 80px;
     }
     .service-list {
-        flex-flow: column wrap;
-        margin-bottom: 200px;
+        flex-flow: column nowrap;
+        margin-bottom: 0px;
     }
     .service {
         margin-top: 50px;
@@ -213,7 +214,7 @@
 
 /* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 800px) {
     .container {
         font-family: 'IranianSansRegular';
         width: 100%;
@@ -232,7 +233,7 @@
         margin: 80px 0px;
     }
     .service-list {
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         margin-bottom: 0px;
     }
     .service {
@@ -275,7 +276,7 @@
 @media screen and (min-width: 1200px) {
     .container {
         font-family: 'IranianSansRegular';
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
     .container span {
@@ -302,7 +303,7 @@
     }
     .service-list {
         display: flex;
-        flex-wrap: wrap;
+        flex-flow: row nowrap;
         text-align: center;
         justify-content: space-evenly;
         margin-bottom: 100px;
@@ -310,6 +311,9 @@
     .header-service {
         text-align: center;
         margin-bottom: 100px;
+    }
+    .service {
+        margin: 0;
     }
     .product {
         text-align: center;
