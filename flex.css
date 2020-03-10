@@ -20,11 +20,10 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
     align-items: center;
     padding: 0 60px;
     margin-top: -400px;
-    flex-direction: row;
+    flex-flow: row nowrap;
 }
 
 .nav a {
@@ -76,7 +75,6 @@
 }
 
 .comment-list {
-    display: inline-flex;
     display: flex;
     flex-flow: row nowrap;
 }
@@ -123,17 +121,17 @@
     border-radius: 5px;
 }
 
+.costumers {
+    margin-top: 90px;
+    text-align: center;
+}
+
 .costumers-logo {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 150px;
-}
-
-.costumers {
-    margin-top: 90px;
-    text-align: center;
 }
 
 .footer {
@@ -339,9 +337,7 @@
         text-align: center;
     }
     .comment-list {
-        display: inline-flex;
         display: flex;
-        justify-content: s;
         flex-flow: row nowrap;
     }
     .costumer-comment-1 {
