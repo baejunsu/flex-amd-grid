@@ -1,0 +1,103 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    flex-flow: row nowrap;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.product-botton {
+    margin-top: 40px;
+    font-size: 25px;
+    border: solid lightblue 1px;
+    border-radius: 40px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.text-botton {
+    margin-left: 40px;
+    color: lightblue;
+}
+
+.comment {
+    margin-top: 200px;
+    padding-top: 40px;
+    background-color: silver;
+}
+
+.comment-list {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.costumer-comment-1 {
+    margin: 25px;
+    padding: 15px 50px 30px 20px;
+    background-color: white;
+    direction: rtl;
+    border-radius: 5px;
+}
+
+.costumer-comment-2 {
+    background-color: white;
+    padding: 15px 50px 30px 20px;
+    width: 1500px;
+    margin: 25px;
+    border-radius: 5px;
+    direction: rtl;
+}
+
+.costumer-comment-3 {
+    padding: 15px 50px 30px 20px;
+    direction: rtl;
+    background-color: white;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.costumer-comment-4 {
+    padding: 15px 50px 30px 20px;
+    direction: rtl;
+    background-color: white;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.costumer-comment-5 {
+    background-color: white;
+    padding: 15px 50px 30px 20px;
+    margin: 25px;
+    width: 1500px;
+    direction: rtl;
+    border-radius: 5px;
+}
+
+.costumers {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.costumers-logo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    direction: rtl;
+}

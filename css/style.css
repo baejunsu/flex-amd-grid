@@ -1,0 +1,119 @@
+.container {
+    font-family: 'IranianSansRegular';
+    width: 90%;
+    margin: 0 auto;
+}
+
+.comment span,
+.header-service span,
+.costumers span {
+    opacity: 0.5;
+}
+
+.container a:link {
+    text-decoration: none;
+}
+
+.background-nav-image {
+    width: 89%;
+    height: 65%;
+    position: absolute;
+}
+
+.nav {
+    position: relative;
+    margin-bottom: 458px;
+}
+
+.nav a {
+    font-size: 20px;
+    color: white;
+}
+
+.header-service {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.header-service span {
+    font-size: 20px;
+}
+
+.product {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.product-botton {
+    margin-top: 40px;
+    font-size: 20px;
+    border: solid #3FCFC7 3px;
+    border-radius: 40px;
+    padding: 14px 0px;
+    width: 430px;
+    margin: 0 auto;
+}
+
+.text-botton {
+    margin-left: 100px;
+    color: #3FCFC7;
+}
+
+.comment {
+    padding: 200px 0px;
+    background-image: linear-gradient( white, rgb(243, 243, 243), white);
+    margin-top: -300px;
+    line-height: 1.8;
+}
+
+.comment-title span {
+    font-size: 20px;
+}
+
+.costumer-comment-1,
+.costumer-comment-2,
+.costumer-comment-3,
+.costumer-comment-4,
+.costumer-comment-5 {
+    direction: rtl;
+    background-color: white;
+    padding: 10px 50px 70px 40px;
+    border-radius: 5px;
+}
+
+.comment-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.costumers {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.costumers span {
+    font-size: 20px;
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.information {
+    margin-right: 20px;
+    line-height: 1.6;
+}
+
+.footer p {
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.footer-title {
+    font-size: 25px;
+}
+
+.footer span {
+    color: blue;
+}
