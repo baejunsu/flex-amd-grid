@@ -15,8 +15,6 @@
 }
 
 .background-nav-image {
-    width: 89%;
-    height: 65%;
     position: absolute;
 }
 
@@ -129,4 +127,87 @@
 
 .footer span {
     color: blue;
+}
+
+
+/* mobbile size */
+
+@media screen and (max-width: 567px) {
+    .container {
+        width: 100%;
+    }
+    .background-nav-image {
+        width: 97%;
+        height: 50%;
+    }
+    .nav {
+        margin-bottom: 246px;
+    }
+    .product-botton {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .costumers {
+        margin-bottom: 150px;
+    }
+    .about-us {
+        text-align: center;
+    }
+}
+
+
+/* tablet size */
+
+@media screen and (min-width: 568px) {
+    .container {
+        width: 100%;
+    }
+    .background-nav-image {
+        width: 98%;
+        height: 50%;
+    }
+    .nav {
+        margin-bottom: 257px;
+        padding-top: 23px;
+    }
+}
+
+
+/* mspdm */
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .background-nav-image {
+        width: 98%;
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .background-nav-image {
+        width: 99%;
+        height: 50%;
+    }
+}
+
+
+/* desktop size */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .background-nav-image {
+        width: 89%;
+    }
+    .nav {
+        margin-bottom: 330px;
+        top: 25px;
+        padding: 20 42px;
+    }
 }
