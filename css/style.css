@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'IRANsans';
+    src: url(../font/IRANSans.ttf);
+    src: url(../font/IRANSans_Bold.ttf);
+    src: url(../font/IRANSans_Black.ttf);
+    src: url(../font/IRANSans_Light.ttf);
+    src: url(../font/IRANSans_Medium.ttf);
+    src: url(../font/IRANSans_UltraLight.ttf);
+}
+
 .container {
+    font-family: 'IRANSans';
     width: 90%;
     margin: 0 auto;
 }
@@ -32,6 +43,10 @@
     margin-bottom: 100px;
 }
 
+.service {
+    font-size: 20px;
+}
+
 .header-service span {
     font-size: 20px;
 }
@@ -53,7 +68,7 @@
 }
 
 .text-botton {
-    margin-left: 125px;
+    margin-left: 173px;
     color: #3FCFC7;
 }
 
