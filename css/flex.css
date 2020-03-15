@@ -19,18 +19,11 @@
     
     .service div {
         flex: 1 1 33.33%;
-    }
-    
-    .service div {
-        width: 300px;
         margin-top: 30px;
     }
     
     .comment {
-        margin-top: 200px;
         direction: rtl;
-        padding-top: 40px;
-        background-color: silver;
     }
     
     .comment-list {
@@ -38,12 +31,14 @@
         flex-flow: row nowrap;
     }
     
+    .costumer-comment-4,
     .costumer-comment-1 {
         margin: 25px;
     }
     
+    .costumer-comment-5,
     .costumer-comment-2 {
-        width: 1500px;
+        width: 1855px;
         margin: 25px;
     }
     
@@ -51,18 +46,8 @@
         margin: 25px 25px 48px 25px;
     }
     
-    .costumer-comment-4 {
-        margin: 25px;
-    }
-    
-    .costumer-comment-5 {
-        margin: 25px;
-        width: 1500px;
-    }
-    
     .costumers-logo {
         display: flex;
-        margin-top: 100px;
         flex-flow: row nowrap;
         justify-content: space-around;
     }
@@ -73,15 +58,6 @@
         flex-flow: row nowrap;
     }
     
-    .social-media {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .about-us {
-        margin-left: 150px;
-    }
-    
     .copy-right {
         width: 430px;
     }
@@ -90,7 +66,7 @@
     @media screen and (max-width: 567px) {
         .nav {
             flex-direction: column-reverse;
-            margin-bottom: 233px;
+            margin-bottom: 239px;
         }
         .nav img {
             margin: 40px;
@@ -144,7 +120,7 @@
     @media screen and (min-width: 568px) {
         .nav {
             flex-direction: column-reverse;
-            margin-bottom: 260px;
+            margin-bottom: 252px;
         }
         .nav-menu {
             width: 100%;
@@ -179,9 +155,6 @@
             flex-flow: column wrap;
             align-items: center;
         }
-        .about-us {
-            margin: 0;
-        }
     }
     /* IIIIIIIIIIIIIIIIIIIIIIIIII */
     
@@ -206,7 +179,7 @@
             margin-bottom: 266px;
         }
         .nav-menu {
-            width: 60%;
+            width: 50%;
             display: flex;
             margin-top: -35px;
         }
@@ -217,22 +190,17 @@
             display: flex;
             flex-flow: row nowrap;
         }
-        .costumer-comment-1 {
-            margin: 25px;
-        }
-        .costumer-comment-2 {
-            width: 1500px;
-            margin: 25px;
-        }
         .costumer-comment-3 {
             margin: 25px 25px 48px 25px;
         }
+        .costumer-comment-1,
         .costumer-comment-4 {
             margin: 25px;
         }
+        .costumer-comment-2,
         .costumer-comment-5 {
             margin: 25px;
-            width: 1500px;
+            width: 1855px;
         }
         .costumers-logo {
             width: 100%;
@@ -244,15 +212,14 @@
             flex-flow: row nowrap;
         }
         .social-media {
-            margin: -20 90px 0 100px;
-            width: 165px;
-        }
-        .about-us {
-            margin-top: 11px;
-            margin-left: 150px;
-            width: 285px;
+            margin-left: -100px;
         }
         .copy-right {
-            width: 400px;
+            margin-left: 90px;
+        }
+        .about-us,
+        .social-media,
+        .copy-right {
+            flex: 1 1 33.33%;
         }
     }
