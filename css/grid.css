@@ -68,7 +68,6 @@
     margin-top: 30px;
     display: grid;
     grid-template: 1fr/repeat(6, 1fr);
-    direction: rtl;
     grid-column-gap: 40px;
 }
 
@@ -96,6 +95,7 @@
     .nav {
         grid-template: 2fr 1fr/repeat(4, 1fr);
         grid-row-gap: 30px;
+        margin-bottom: 289px;
     }
     .artial-logo {
         grid-row: 1/2;
@@ -156,6 +156,7 @@
     .nav {
         grid-template: 2fr 1fr/repeat(4, 1fr);
         grid-row-gap: 30px;
+        margin-bottom: 266px;
     }
     .artial-logo {
         grid-row: 1/2;
@@ -208,6 +209,7 @@
 @media screen and (min-width: 1200px) {
     .nav {
         grid-template: 50px /repeat(7, 1fr);
+        margin-bottom: 339px;
     }
     .artial-logo {
         grid-column: 7/8;

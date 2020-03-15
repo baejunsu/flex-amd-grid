@@ -1,5 +1,4 @@
 .container {
-    font-family: 'IranianSansRegular';
     width: 90%;
     margin: 0 auto;
 }
@@ -15,12 +14,12 @@
 }
 
 .background-nav-image {
+    height: 430px;
     position: absolute;
 }
 
 .nav {
     position: relative;
-    margin-bottom: 458px;
 }
 
 .nav a {
@@ -76,7 +75,7 @@
 .costumer-comment-5 {
     direction: rtl;
     background-color: white;
-    padding: 10px 50px 70px 40px;
+    padding: 24px 50px 40px 30px;
     border-radius: 5px;
 }
 
@@ -96,6 +95,10 @@
 
 .costumers span {
     font-size: 20px;
+}
+
+.footer {
+    direction: rtl;
 }
 
 .footer p {
@@ -137,11 +140,8 @@
         width: 100%;
     }
     .background-nav-image {
+        height: 430px;
         width: 97%;
-        height: 50%;
-    }
-    .nav {
-        margin-bottom: 246px;
     }
     .product-botton {
         width: 100%;
@@ -163,11 +163,10 @@
         width: 100%;
     }
     .background-nav-image {
+        height: 430px;
         width: 98%;
-        height: 50%;
     }
     .nav {
-        margin-bottom: 257px;
         padding-top: 23px;
     }
 }
@@ -180,8 +179,8 @@
         width: 100%;
     }
     .background-nav-image {
+        height: 430px;
         width: 98%;
-        height: 50%;
     }
 }
 
@@ -190,8 +189,8 @@
         width: 100%;
     }
     .background-nav-image {
+        height: 430px;
         width: 99%;
-        height: 50%;
     }
 }
 
@@ -203,10 +202,10 @@
         width: 90%;
     }
     .background-nav-image {
+        height: 430px;
         width: 89%;
     }
     .nav {
-        margin-bottom: 330px;
         top: 25px;
         padding: 20 42px;
     }
