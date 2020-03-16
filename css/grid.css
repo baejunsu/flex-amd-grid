@@ -94,7 +94,7 @@
     .nav {
         grid-template: 2fr 1fr/repeat(4, 1fr);
         grid-row-gap: 30px;
-        margin-bottom: 208px;
+        margin-bottom: 296px;
     }
     .artial-logo {
         grid-row: 1/2;
@@ -155,7 +155,7 @@
     .nav {
         grid-template: 2fr 1fr/repeat(4, 1fr);
         grid-row-gap: 30px;
-        margin-bottom: 185px;
+        margin-bottom: 275;
     }
     .artial-logo {
         grid-row: 1/2;
@@ -208,7 +208,7 @@
 @media screen and (min-width: 1200px) {
     .nav {
         grid-template: 50px /repeat(7, 1fr);
-        margin-bottom: 258px;
+        margin-bottom: 345px;
     }
     .artial-logo {
         grid-column: 7/8;
