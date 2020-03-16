@@ -14,7 +14,7 @@
         flex-wrap: wrap;
         text-align: center;
         justify-content: space-evenly;
-        width: 100%;
+        /* width: 100%; */
     }
     
     .service div {
@@ -209,10 +209,14 @@
             justify-content: space-around;
         }
         .footer {
+            width: 95%;
             flex-flow: row nowrap;
         }
+        .social-media h4 {
+            margin-right: -30px;
+        }
         .social-media {
-            margin-left: -100px;
+            margin-left: -120px;
         }
         .copy-right {
             margin-left: 90px;
