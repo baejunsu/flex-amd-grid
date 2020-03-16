@@ -109,6 +109,9 @@
         .footer {
             flex-flow: column nowrap;
         }
+        .social-media h4 {
+            margin-right: -30px;
+        }
         .about-us,
         .copy-right,
         .social-media {
@@ -151,6 +154,9 @@
             margin: 0 auto;
             flex-flow: column wrap;
         }
+        .social-media h4 {
+            margin-right: -30px;
+        }
         .footer {
             flex-flow: column wrap;
             align-items: center;
@@ -167,6 +173,9 @@
             width: 60%;
             display: flex;
             margin-left: 30px;
+        }
+        .social-media h4 {
+            margin-right: -30px;
         }
         .artial-logo {
             margin-right: 20px;
