@@ -1,8 +1,16 @@
     .nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        top: 25px;
+        margin-bottom: 340px;
         flex-flow: row nowrap;
+    }
+    
+    .nav-menu {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
     }
     
     .nav a {
@@ -14,11 +22,10 @@
         flex-wrap: wrap;
         text-align: center;
         justify-content: space-evenly;
-        /* width: 100%; */
     }
     
     .service div {
-        flex: 1 1 33.33%;
+        flex: 1 1 calc(100%/3);
         margin-top: 30px;
     }
     
@@ -38,7 +45,7 @@
     
     .costumer-comment-5,
     .costumer-comment-2 {
-        width: 1855px;
+        width: 1385px;
         margin: 25px;
     }
     
@@ -56,6 +63,10 @@
         display: flex;
         justify-content: flex-start;
         flex-flow: row nowrap;
+    }
+    
+    .social-media {
+        margin: 0 25px 0 34px;
     }
     
     .copy-right {
@@ -120,10 +131,10 @@
     }
     /* tablet size */
     
-    @media screen and (min-width: 568px) {
+    @media screen and (min-width: 568px) and (max-width: 991px) {
         .nav {
             flex-direction: column-reverse;
-            margin-bottom: 252px;
+            margin-bottom: 295px;
         }
         .nav-menu {
             width: 100%;
@@ -135,7 +146,7 @@
             margin-bottom: 50px;
         }
         .service div {
-            flex: 1 1 50%;
+            flex: 1 1 calc(100%/2);
         }
         .comment-container,
         .comment-list {
@@ -165,7 +176,10 @@
     /* IIIIIIIIIIIIIIIIIIIIIIIIII */
     
     @media screen and (min-width: 992px) {
-        .nav {
+        .social-media {
+            margin: 0 0 0 24px;
+        }
+        /* .nav {
             flex-direction: row;
             margin-bottom: 283px;
         }
@@ -174,17 +188,26 @@
             display: flex;
             margin-left: 30px;
         }
+        .costumers-logo img {
+            flex: 1 1 calc(100%/2);
+        }
         .social-media h4 {
             margin-right: -30px;
         }
         .artial-logo {
             margin-right: 20px;
-        }
+        } */
     }
     /* desktop size */
     
     @media screen and (min-width: 1200px) {
-        .nav {
+        .about-us {
+            margin-left: 114px;
+        }
+        .social-media {
+            margin-left: 30px;
+        }
+        /* .nav {
             margin-bottom: 266px;
         }
         .nav-menu {
@@ -193,7 +216,7 @@
             margin-top: -35px;
         }
         .service div {
-            flex: 1 1 33.33%;
+            flex: 1 1 calc(100%/3);
         }
         .comment-list {
             display: flex;
@@ -233,6 +256,6 @@
         .about-us,
         .social-media,
         .copy-right {
-            flex: 1 1 33.33%;
-        }
+            flex: 1 1;
+        } */
     }

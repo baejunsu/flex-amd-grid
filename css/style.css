@@ -1,23 +1,66 @@
 @font-face {
-    font-family: 'IRANsans';
-    src: url(../font/IRANSans.ttf);
-    src: url(../font/IRANSans_Bold.ttf);
-    src: url(../font/IRANSans_Black.ttf);
-    src: url(../font/IRANSans_Light.ttf);
-    src: url(../font/IRANSans_Medium.ttf);
-    src: url(../font/IRANSans_UltraLight.ttf);
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/eot/IRANSansWeb_Black.eot');
+    src: url('../fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_Black.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb.woff') format('woff'), url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+.text-botton,
+.nav a {
+    font-weight: 700;
 }
 
 .container {
     font-family: 'IRANSans';
-    width: 90%;
     margin: 0 auto;
 }
 
-.comment span,
-.service-title span,
-.costumers span {
-    opacity: 0.5;
+.comment p,
+.service-title p,
+.costumers p,
+.footer p {
+    color: grey;
 }
 
 .container a:link {
@@ -70,6 +113,16 @@
 .text-botton {
     margin-left: 155px;
     color: #3FCFC7;
+}
+
+.product-botton:hover {
+    background-color: grey;
+    transition: 2s;
+}
+
+.text-botton:hover {
+    transition: 1s;
+    margin-left: 10px;
 }
 
 .comment {
@@ -141,7 +194,7 @@
 }
 
 .footer-title {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .footer span {
@@ -163,7 +216,7 @@
         width: 100%;
     }
     .background-nav-image {
-        width: 97%;
+        width: 100%;
     }
     .product-botton {
         width: 100%;
@@ -182,10 +235,10 @@
 
 @media screen and (min-width: 568px) {
     .container {
-        width: 100%;
+        width: 540px;
     }
     .background-nav-image {
-        width: 98%;
+        width: 540px;
     }
     .nav {
         padding-top: 23px;
@@ -197,19 +250,22 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 100%;
+        width: 720px;
     }
     .background-nav-image {
-        width: 98%;
+        width: 720px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .container {
-        width: 100%;
+        width: 960px;
     }
     .background-nav-image {
-        width: 99%;
+        width: 960px;
+    }
+    .nav {
+        top: 25px;
     }
 }
 
@@ -218,13 +274,9 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 90%;
+        width: 1140px;
     }
     .background-nav-image {
-        width: 89%;
-    }
-    .nav {
-        top: 25px;
-        padding: 20px 42px;
+        width: 1140px;
     }
 }
