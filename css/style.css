@@ -46,9 +46,17 @@
     src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb.woff') format('woff'), url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
 }
 
+.body {
+    margin: 0;
+}
+
 .text-botton,
 .nav a {
     font-weight: 700;
+}
+
+.container-wrapper {
+    width: 100%;
 }
 
 .container {
@@ -68,8 +76,10 @@
 }
 
 .background-nav-image {
-    height: 430px;
+    /* height: 430px; */
     position: absolute;
+    width: 100%;
+    height: 455px;
 }
 
 .nav {
@@ -215,7 +225,7 @@
         width: 100%;
     }
     .background-nav-image {
-        width: 100%;
+        /* width: 100%; */
     }
     .product-botton {
         width: 100%;
@@ -237,7 +247,7 @@
         width: 540px;
     }
     .background-nav-image {
-        width: 540px;
+        /* width: 540px; */
     }
     .nav {
         padding-top: 23px;
@@ -252,7 +262,7 @@
         width: 720px;
     }
     .background-nav-image {
-        width: 720px;
+        /* width: 720px; */
     }
 }
 
@@ -261,7 +271,7 @@
         width: 960px;
     }
     .background-nav-image {
-        width: 960px;
+        /* width: 960px; */
     }
     .nav {
         top: 25px;
@@ -276,6 +286,6 @@
         width: 1140px;
     }
     .background-nav-image {
-        width: 1140px;
+        /* width: 1140px; */
     }
 }
