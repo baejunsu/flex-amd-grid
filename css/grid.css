@@ -157,7 +157,7 @@
     .nav {
         grid-template: 2fr 1fr/repeat(2, 1fr) 170px 1fr;
         grid-row-gap: 30px;
-        margin-bottom: 275;
+        margin-bottom: 292px;
     }
     .artial-logo {
         grid-row: 1/2;
