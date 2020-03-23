@@ -46,22 +46,13 @@
     src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb.woff') format('woff'), url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
 }
 
-.body {
-    margin: 0;
-}
-
-.text-botton,
-.nav a {
-    font-weight: 700;
+.container {
+    font-family: 'IRANSans';
+    margin: 0 auto;
 }
 
 .container-wrapper {
     width: 100%;
-}
-
-.container {
-    font-family: 'IRANSans';
-    margin: 0 auto;
 }
 
 .comment p,
@@ -77,6 +68,8 @@
 
 .background-nav-image {
     /* height: 430px; */
+    left: 0;
+    top: 0;
     position: absolute;
     width: 100%;
     height: 455px;
@@ -89,6 +82,11 @@
 .nav a {
     font-size: 20px;
     color: white;
+}
+
+.text-botton,
+.nav a {
+    font-weight: 700;
 }
 
 .service-title {
