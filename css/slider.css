@@ -52,36 +52,96 @@
 }
 
 .gallery-item-first {
-    left: 15%;
+    left: 14%;
     transform: translateX(-50%);
 }
 
 .gallery-item-last {
-    left: 85%;
+    left: 86%;
     transform: translateX(-50%);
-}
-
-.move-out-from-right {
-    animation: moveOutRight 0.5s ease-in-out;
-}
-
-@keyframes moveOutRight {
-    0% {
-        left: 85%;
-    }
-    100% {
-        left: 15%;
-    }
 }
 
 .button img {
     margin-left: 0 3%;
     width: 20px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 100;
     opacity: .6;
     height: 120px;
+    transition: all 1s;
+    border-radius: 10px;
+    padding: 5px;
 }
+
+.button img:hover {
+    background-color: grey;
+}
+
+
+/*  */
+
+.move-out-from-left {
+    animation: moveOutLeft 0.5s ease-in-out;
+}
+
+.move-out-from-right {
+    animation: moveOutRight 0.5s ease-in-out;
+}
+
+.move-in-from-right {
+    animation: moveInRgiht 0.5s ease-in-out;
+}
+
+.move-in-from-left {
+    animation: moveInLeft 0.5s ease-in-out;
+}
+
+@keyframes moveInLeft {
+    0% {
+        left: 100%;
+        opacity: 0;
+    }
+    100% {
+        opacity: .7;
+        left: 86%;
+    }
+}
+
+@keyframes moveInRgiht {
+    0% {
+        left: 0%;
+        opacity: 0;
+    }
+    100% {
+        opacity: .7;
+        left: 14%;
+    }
+}
+
+@keyframes moveOutLeft {
+    0% {
+        left: 14%;
+        opacity: 1;
+    }
+    100% {
+        left: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes moveOutRight {
+    0% {
+        left: 86%;
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+
+/*  */
 
 @media screen and (max-width: 567px) {
     .gallery {
@@ -105,6 +165,14 @@
     .gallery-item-last {
         width: 0px;
     }
+    @keyframes moveOutRight {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 }
 
 @media screen and (min-width: 568px) and (max-width: 765px) {
@@ -114,13 +182,21 @@
         margin: 0 auto;
     }
     .gallery-item-selected {
-        width: 400px;
+        width: 385px;
     }
     .gallery-item-previous,
     .gallery-item-next,
     .gallery-item-last,
     .gallery-item-first {
         width: 0px;
+    }
+    @keyframes moveOutRight {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
     }
 }
 
